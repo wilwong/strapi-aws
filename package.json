@@ -1,0 +1,40 @@
+{
+  "name": "strappi-aws",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "migrate": "node-pg-migrate"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "node-pg-migrate": "^5.1.1",
+    "pg": "^8.2.1",
+    "sqlite3": "latest",
+    "strapi": "3.0.4",
+    "strapi-admin": "3.0.4",
+    "strapi-connector-bookshelf": "3.0.4",
+    "strapi-plugin-content-manager": "3.0.4",
+    "strapi-plugin-content-type-builder": "3.0.4",
+    "strapi-plugin-email": "3.0.4",
+    "strapi-plugin-upload": "3.0.4",
+    "strapi-plugin-users-permissions": "3.0.4",
+    "strapi-utils": "3.0.4"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9bf19cd0-c7f8-4976-bb9e-3175dc8fb992"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
