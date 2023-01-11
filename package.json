@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "<0.20.0",
+    "knex": "<2.5.0",
     "node-pg-migrate": "^5.1.1",
     "pg": "^8.2.1",
     "strapi": "3.0.4",
